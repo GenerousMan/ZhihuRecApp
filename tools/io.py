@@ -45,5 +45,5 @@ def read_answer(answer_id):
     return df['16'][line_index]
 
 if __name__ == "__main__":
-    # convert_csv("../zhihuRec/answer_infos.txt","../answer_csv/",10000)
+    convert_csv("zhihuRec/answer_infos.txt","answer_csv/",10000)
     read_answer("A5592193")
