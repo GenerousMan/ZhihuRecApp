@@ -1,0 +1,6 @@
+pandas
+flask
+pickle
+gensim
+numpy
+io
