@@ -51,3 +51,4 @@ class TFIDFSimilarity:
         j_simi = self.jaccard(a_list,b_list)
         print(j_simi)
         return j_simi
+
