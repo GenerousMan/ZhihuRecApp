@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43b2fa21-73f4-4f02-9063-04f522a8014d" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="43b2fa21-73f4-4f02-9063-04f522a8014d" name="Default Changelist" comment="调整为POST">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tfidf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +217,21 @@
       <updated>1667270535403</updated>
       <workItem from="1667304878251" duration="28000" />
       <workItem from="1667304953116" duration="108000" />
+      <workItem from="1667451596070" duration="429000" />
+      <workItem from="1667452404409" duration="6000" />
+      <workItem from="1667480979542" duration="30000" />
+      <workItem from="1667481485714" duration="19000" />
+      <workItem from="1667485292598" duration="35000" />
+      <workItem from="1667543830450" duration="620000" />
     </task>
+    <task id="LOCAL-00001" summary="调整为POST">
+      <created>1667451691147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667451691147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -242,6 +259,21 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="调整为POST" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整为POST" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zhihuRec/readme.txt">
