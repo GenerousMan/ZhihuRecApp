@@ -22,10 +22,9 @@ tf_simi.load_tfidf(model_path)
 
 @app.route("/fetch_answer_text", methods=['POST'])
 def fetch_answer_text():
-    # 输入answer_ID,获取指定answer id的文本信息
+    # 输入answer_ID,（单个回答的字符串或者数组）, 检索得到答案文本数组
     answer_id = request.get_json().get('answer_ID')
     text = read_answer_text(answer_id)
-    print(text)
     return text
 
 @app.route("/fetch_answer_boundTopicIDs", methods=['POST'])

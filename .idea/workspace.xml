@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43b2fa21-73f4-4f02-9063-04f522a8014d" name="Default Changelist" comment="添加fetch_answer_boundTopicIDs">
+    <list default="true" id="43b2fa21-73f4-4f02-9063-04f522a8014d" name="Default Changelist" comment="添加fetch_user_info_with_answers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/io.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +230,10 @@
       <workItem from="1667543830450" duration="620000" />
       <workItem from="1667547252018" duration="143000" />
       <workItem from="1667551360653" duration="10000" />
+      <workItem from="1667800212292" duration="31000" />
+      <workItem from="1667805452506" duration="11000" />
+      <workItem from="1667807316534" duration="88000" />
+      <workItem from="1667841517182" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="调整为POST">
       <created>1667451691147</created>
@@ -243,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667547343009</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加fetch_user_info_with_answers">
+      <created>1667800233894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667800233894</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -286,7 +299,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="调整为POST" />
     <MESSAGE value="添加fetch_answer_boundTopicIDs" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加fetch_answer_boundTopicIDs" />
+    <MESSAGE value="添加fetch_user_info_with_answers" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加fetch_user_info_with_answers" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zhihuRec/readme.txt">
