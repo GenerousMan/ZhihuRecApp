@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b2fa21-73f4-4f02-9063-04f522a8014d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/io.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +15,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/io.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="810">
+              <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/answer_csv/935.csv">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="476">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/answer_csv/2463393.csv">
+        <entry file="file://$PROJECT_DIR$/zhihuRec/answer_infos.txt">
           <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="9" />
+            <state>
+              <caret selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -43,34 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-              <folding>
-                <element signature="e#1#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="259">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding>
                 <element signature="e#29#52#0" expanded="true" />
               </folding>
@@ -82,37 +67,19 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="308">
-                <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+              <first_editor relative-caret-position="275">
+                <caret line="28" selection-start-line="28" selection-end-line="28" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhihuRec/answer_infos.txt">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="341">
-              <caret line="27" column="174" selection-start-line="27" selection-start-column="120" selection-end-line="27" selection-end-column="174" />
             </state>
           </provider>
         </entry>
@@ -126,6 +93,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>21632993</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -138,10 +110,10 @@
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/tools/tfidf.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/tools/io.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tools/io.py" />
       </list>
     </option>
   </component>
@@ -166,6 +138,12 @@
               <item name="Zhihu_Mining" type="b2602c69:ProjectViewProjectNode" />
               <item name="Zhihu_Mining" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zhihu_Mining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zhihu_Mining" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="answer_csv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Zhihu_Mining" type="b2602c69:ProjectViewProjectNode" />
@@ -227,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="io" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="io" type="PythonConfigurationType" factoryName="Python">
       <module name="Zhihu_Mining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,7 +213,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -292,14 +270,13 @@
     </configuration>
     <list>
       <item itemvalue="Python.io" />
+      <item itemvalue="Python.app" />
       <item itemvalue="Python.preprocess" />
       <item itemvalue="Python.tfidf" />
-      <item itemvalue="Python.app" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.io" />
         <item itemvalue="Python.preprocess" />
         <item itemvalue="Python.tfidf" />
       </list>
@@ -320,18 +297,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3112245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3112245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,13 +391,7 @@
     <entry file="file://$PROJECT_DIR$/source/answer_csv/20982139.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/answer_csv/21203429.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/answer_csv/66687901.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/answer_csv/82359573.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/answer_csv/175235259.csv">
@@ -477,23 +447,6 @@
         <state relative-caret-position="-1" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhihuRec/answer_infos.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="341">
-          <caret line="27" column="174" selection-start-line="27" selection-start-column="120" selection-end-line="27" selection-end-column="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/answer_csv/2463393.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="-74549" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -508,23 +461,6 @@
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#29#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -551,17 +487,73 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="308">
-            <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <first_editor relative-caret-position="275">
+            <caret line="28" selection-start-line="28" selection-end-line="28" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#29#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihuRec/answer_infos.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/answer_csv/2463393.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="480">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="-74549" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/answer_csv/188458387.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/answer_csv/82359573.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-5197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/answer_csv/21203429.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-2695">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/answer_csv/935.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="476">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
