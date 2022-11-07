@@ -55,12 +55,23 @@ class TFIDFSimilarity:
         print(j_simi)
         return j_simi
 
-    # 输入原始文本，返回经tfidf处理后按照特征值映射（与原字不同）由高到低排序的列表数组（去重）
+    # 输入原始文本（或者多个文本数组），返回经tfidf处理后按照特征值映射（与原字不同）由高到低排序的列表数组（去重）
     def text_2_tfidf_characteristic_value(self, original_string):
-        kw_vector = self.dictionary.doc2bow(original_string.split(" "))
-        tf_kw = self.tfidf[kw_vector]
-        tf_kw.sort(key= lambda x : x[1], reverse=True)
-        result = [pair[0] for pair in tf_kw]
+        result = []
+        if (type(original_string) == type('string')):
+            # result = ['xx','xx']
+            kw_vector = self.dictionary.doc2bow(original_string.split(" "))
+            tf_kw = self.tfidf[kw_vector]
+            tf_kw.sort(key= lambda x : x[1], reverse=True)
+            result = [pair[0] for pair in tf_kw]
 
+        if (type(original_string) == type([])):
+            # result = [['xx','xx'],['xx']]
+            for original_string_item in original_string:
+                kw_vector = self.dictionary.doc2bow(original_string_item.split(" "))
+                tf_kw = self.tfidf[kw_vector]
+                tf_kw.sort(key= lambda x : x[1], reverse=True)
+                result.append([pair[0] for pair in tf_kw])
+                
         return result
 
