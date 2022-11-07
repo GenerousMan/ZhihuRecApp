@@ -77,4 +77,4 @@ def read_answer_boundTopicIDs(answer_id):
 
 if __name__ == "__main__":
     convert_csv("zhihuRec/answer_infos.txt","source/answer_csv/",10000)
-    read_answer("A21632993")
+    read_answer_text("A21632993")
