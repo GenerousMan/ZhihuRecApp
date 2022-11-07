@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43b2fa21-73f4-4f02-9063-04f522a8014d" name="Default Changelist" comment="调整为POST">
+    <list default="true" id="43b2fa21-73f4-4f02-9063-04f522a8014d" name="Default Changelist" comment="添加fetch_answer_boundTopicIDs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tfidf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test_zmx" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -198,9 +200,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.io" />
-        <item itemvalue="Python.preprocess" />
         <item itemvalue="Python.tfidf" />
+        <item itemvalue="Python.preprocess" />
+        <item itemvalue="Python.io" />
+        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +226,8 @@
       <workItem from="1667481485714" duration="19000" />
       <workItem from="1667485292598" duration="35000" />
       <workItem from="1667543830450" duration="620000" />
+      <workItem from="1667547252018" duration="143000" />
+      <workItem from="1667551360653" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="调整为POST">
       <created>1667451691147</created>
@@ -231,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667451691147</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加fetch_answer_boundTopicIDs">
+      <created>1667547343009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667547343009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -273,7 +285,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="调整为POST" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整为POST" />
+    <MESSAGE value="添加fetch_answer_boundTopicIDs" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加fetch_answer_boundTopicIDs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zhihuRec/readme.txt">

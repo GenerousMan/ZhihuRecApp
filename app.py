@@ -68,8 +68,8 @@ def get_text_characteristic_value():
 
 @app.route("/fetch_user_interaction_answers", methods=['POST'])
 @cross_origin()
-def fetch_user_interaction_answers():
-    # 输入用户的ID，返回展示给该用户的回答信息列表以及该用户阅读的回答信息列表
+def fetch_user_info_with_answers():
+    # 输入用户的ID，返回该用户的基础信息以及该与用户交互的回答信息
     user_id = request.get_json().get('user_ID')
     return 'abcd'
 
