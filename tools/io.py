@@ -6,11 +6,14 @@ def convert_csv(txt_path, csv_path, block_max):
     text_block = []
     block_count = 0
     fileHandler = open(txt_path)
-    while True:
-        line = fileHandler.readline()
-        if not line:
-            break
-        line = line.strip().split('\t')
+    ans_lines = fileHandler.readlines()
+    print(len(ans_lines))
+    ans_lines = [ line.strip().split('\t') for line in ans_lines]
+    ans_lines.sort(key=lambda x:int(x[0].split("A")[-1]))
+    # print(ans_lines)
+    count_all = 0
+    for i in range(len(ans_lines)):
+        line = ans_lines[i]
         text_block.append(line)
         if(len(text_block)>=block_max):
             print(str(block_count)+" block saved.")
@@ -30,12 +33,12 @@ def read_answer_text(answer_id):
         answer_nums = [int(answer_id.split("A")[-1])]
     if (type(answer_id) == type([])):
         answer_nums = [int(answer_ID.split("A")[-1]) for answer_ID in answer_id]
-        
+
     file_list = os.listdir(answer_path)
     file_list.sort(key = lambda k:int(k.split(".")[0]))
-    
+
     result = []
-    
+
     for answer_num in answer_nums:
         index_file = ""
         for i in range(len(file_list)):
@@ -74,5 +77,5 @@ def read_answer_boundTopicIDs(answer_id):
     return df['17'][line_index].split(",")
 
 if __name__ == "__main__":
-    convert_csv("zhihuRec/answer_infos.txt","answer_csv/",10000)
-    read_answer_text("A5592193")
+    convert_csv("zhihuRec/answer_infos.txt","source/answer_csv/",10000)
+    read_answer_text("A21632993")
