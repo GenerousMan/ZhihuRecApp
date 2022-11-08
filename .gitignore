@@ -2,3 +2,8 @@
 *.csv
 *.zip
 .idea/*
+.DS_Store
+*/.DS_Store
+*/*.xml
+*/*.pyc
+*/__pycache__/

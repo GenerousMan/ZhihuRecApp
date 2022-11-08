@@ -9,6 +9,7 @@ import flask
 from tools.io import read_answer_text
 from tools.io import read_answer_boundTopicIDs
 from tools.tfidf import TFIDFSimilarity
+from classes.user import User
 
 #创建应用程序
 app = Flask(__name__)
@@ -70,7 +71,9 @@ def get_text_characteristic_value():
 def fetch_user_info_with_answers():
     # 输入用户的ID，返回该用户的基础信息以及该与用户交互的回答信息
     user_id = request.get_json().get('user_ID')
-    return 'abcd'
+    result = User(user_id)
+    result.print_self()
+    return result
 
 if __name__ == "__main__":
     app.run(port=5050, debug=True)    #启动应用程序
