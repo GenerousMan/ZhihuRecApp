@@ -1,3 +1,4 @@
 /zhihuRec/*
 *.csv
 *.zip
+.idea/*
