@@ -22,10 +22,9 @@ tf_simi.load_tfidf(model_path)
 
 @app.route("/fetch_answer_text", methods=['POST'])
 def fetch_answer_text():
-    # 输入answer_ID,获取指定answer id的文本信息
+    # 输入answer_ID,（单个回答的字符串或者数组）, 检索得到答案文本数组
     answer_id = request.get_json().get('answer_ID')
     text = read_answer_text(answer_id)
-    print(text)
     return text
 
 @app.route("/fetch_answer_boundTopicIDs", methods=['POST'])
@@ -60,7 +59,7 @@ def compare_text():
 @app.route("/get_text_characteristic_value", methods=['POST'])
 @cross_origin()
 def get_text_characteristic_value():
-    # 输入原始文本，返回经tfidf处理后按照特征值由高到低排序的列表数组（去重）
+    # 输入原始文本（或者多个文本数组），返回经tfidf处理后按照特征值由高到低排序的列表数组（去重）
     original_text = request.get_json().get('text')
     result = tf_simi.text_2_tfidf_characteristic_value(original_text)
 
