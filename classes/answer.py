@@ -1,5 +1,10 @@
 import os
-from tools.io import read_answer_bound_question_id, read_answer_bound_question_text, read_answer_text, read_answer_boundTopicIDs
+
+from flask import jsonify
+
+from tools.io import read_answer_bound_question_id, read_answer_bound_question_text, read_answer_text, \
+    read_answer_boundTopicIDs
+
 
 class Answer:
     def __init__(self, answer_id):
@@ -14,12 +19,22 @@ class Answer:
         self.answer_topics = read_answer_boundTopicIDs(self.answer_id)
         self.question_id = read_answer_bound_question_id(self.answer_id)
         self.question_text = read_answer_bound_question_text(self.answer_id)
+
     def print_self(self):
-        print("Answer_id:",self.answer_id)
-        print("Answer_text:",self.answer_text)
-        print("Answer_bound_topics:",self.answer_topics)
-        print("Question_id:",self.question_id)
-        print("Question_text:",self.question_text)
+        print("Answer_id:", self.answer_id)
+        print("Answer_text:", self.answer_text)
+        print("Answer_bound_topics:", self.answer_topics)
+        print("Question_id:", self.question_id)
+        print("Question_text:", self.question_text)
+
+    def export_self_to_dict(self):
+        return {"answer_ID": self.answer_id, "answer_show_time": self.answer_show_time,
+                "answer_read_time": self.answer_read_time,
+                "answer_bound_topics": self.answer_topics, "answer_bound_question": self.question_id,
+                "answer_bound_question_text": self.question_text,
+                # "answer_text": self.answer_text
+                }
+
 
 if __name__ == "__main__":
     test_answer = Answer("A21632993")

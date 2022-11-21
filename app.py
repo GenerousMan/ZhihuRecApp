@@ -1,17 +1,16 @@
 # coding=utf-8
 # hello world
 import json
-from flask import Flask
+from flask import Flask, jsonify
 from flask import request
 from flask_cors import *
-import flask
 
 from tools.io import read_answer_text
 from tools.io import read_answer_boundTopicIDs
 from tools.tfidf import TFIDFSimilarity
 from classes.user import User
 
-#创建应用程序
+# 创建应用程序
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
@@ -28,12 +27,14 @@ def fetch_answer_text():
     text = read_answer_text(answer_id)
     return text
 
+
 @app.route("/fetch_answer_boundTopicIDs", methods=['POST'])
 def fetch_answer_boundTopicIDs():
     # 输入answer_ID,获取指定answer id绑定的话题ID列表数组
     answer_id = request.get_json().get('answer_ID')
     text = read_answer_boundTopicIDs(answer_id)
     return text
+
 
 @app.route("/compare_id", methods=['POST'])
 @cross_origin()
@@ -47,6 +48,7 @@ def compare_id():
 
     return str(simi)
 
+
 @app.route("/compare_text", methods=['POST'])
 @cross_origin()
 def compare_text():
@@ -57,6 +59,7 @@ def compare_text():
 
     return str(simi)
 
+
 @app.route("/get_text_characteristic_value", methods=['POST'])
 @cross_origin()
 def get_text_characteristic_value():
@@ -66,14 +69,16 @@ def get_text_characteristic_value():
 
     return result
 
-@app.route("/fetch_user_interaction_answers", methods=['POST'])
+
+@app.route("/fetch_user_info_with_answers", methods=['POST'])
 @cross_origin()
 def fetch_user_info_with_answers():
     # 输入用户的ID，返回该用户的基础信息以及该与用户交互的回答信息
     user_id = request.get_json().get('user_ID')
-    result = User(user_id)
-    result.print_self()
-    return result
+    result = User(user_id).export_self_to_dict()
+    # result.print_self()
+    return jsonify(result)
+
 
 if __name__ == "__main__":
-    app.run(port=5050, debug=True)    #启动应用程序
+    app.run(port=5050, debug=True)  # 启动应用程序
